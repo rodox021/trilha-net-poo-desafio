@@ -20,6 +20,7 @@ namespace DesafioPOO.Models
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
+
         }
 
         public void ReceberLigacao()
