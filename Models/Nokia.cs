@@ -15,7 +15,7 @@ namespace DesafioPOO.Models
         public override void InstalarAplicativo(string nomeApp)
         {
            
-            System.Console.WriteLine($"Instalando {nomeApp}");
+            System.Console.WriteLine($"Instalando {nomeApp}, no seu smartaphone Nokia");
            for (int i = 0; i < 10; i++)
             {
             System.Console.Write("||||||||||||" );

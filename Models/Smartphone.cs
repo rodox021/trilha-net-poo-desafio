@@ -28,6 +28,10 @@ namespace DesafioPOO.Models
             Console.WriteLine("Recebendo ligação...");
         }
 
+        public string PegarModelo()
+        {
+            return modelo;
+        }
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
